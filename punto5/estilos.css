@@ -1,0 +1,354 @@
+.headTaller{
+
+    
+    display: flex;
+
+    justify-content: space-between;
+    height: 7rem;
+    align-items: center;
+   background-color: gray;
+}
+
+
+.headTaller > div:first-child{
+
+    
+    width: 7rem;
+    height: 2.5rem;
+   background-color: rgb(15, 43, 64);
+    margin: 1rem 5rem;
+    border-radius: 10px;
+
+
+
+}
+
+
+
+.headTaller > div:last-child{
+
+
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.headTaller > div:last-child>*{
+
+ 
+    height: 1rem;
+    margin: 1rem 4rem ;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.headTaller > div:last-child> div:first-child{
+    width: 20%;
+    align-self: flex-end;
+}
+
+.navtaller{
+    
+    background-color: rgb(15, 43, 64);
+
+}
+    
+.navtaller>div:first-child{
+   
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 40px;
+    margin-bottom: 2rem;
+
+}
+
+.navtaller>div:first-child>*{
+   
+   height: 2rem;
+   display: flex;
+}
+
+.navtaller>div:first-child>div:nth-child(2){
+    height: auto;
+    color: blueviolet;
+}
+
+.navtaller>div:first-child>div:nth-child(1)>*{
+
+    width: 9rem;
+    margin:5px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.navtaller>div:first-child>div:nth-child(1)>:first-child{
+    width: 5rem;
+}
+
+.navtaller>div:first-child>:last-child{
+    width: 11rem;
+    border-radius: 10px;
+    background-color: blueviolet;
+
+}
+
+
+.maintaller{
+    
+    
+}
+
+.cabezamain{
+    display:flex;
+    height: auto;
+    
+}
+
+.cabezamain>*{
+    
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabezamain>div:first-child>*{
+    height: 11rem;
+    
+    border-radius: 10px;
+    margin:10px 4rem;
+
+    margin:10px 4rem 10px 4rem;
+    background-color: blueviolet;
+}
+
+.cabezamain>div:first-child>div:first-child{
+    height: 9px;
+    width: 8rem;
+    background-color: rgb(15, 43, 64);
+
+}
+
+.cabezamain>div:first-child>div:last-child{
+    height: 3rem;
+    background-color: rgb(63,71,208);
+}
+
+
+
+
+.columnaDos{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.columnaDos>*{
+
+    height: 8.5rem;
+    
+    
+}
+
+
+.itemC2{
+
+    
+    display: flex;
+
+    
+
+
+}
+
+
+
+.itemC2>div:first-child{
+
+    width: 50%;
+    
+    border-radius: 10px;
+    background-color: blueviolet;
+    margin-bottom: 1.5rem;
+}
+
+.columnaDos>div:first-child{
+
+    height: 9px;
+    width: 30%;
+    margin: 10px 0px 20px 0px;
+    border-radius: 10px;
+    background-color: rgb(15, 43, 64);
+
+}
+
+
+
+.itemC2>div:last-child{
+
+    width: 50%;
+    height: auto;
+    
+    border-radius: 10px;
+    
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    color: rgb(15, 43, 64);
+    font-weight: bold;
+}
+
+
+.contenedor-1{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contenedor-1>*{
+
+    
+    width: 3rem;
+    height: 1rem;
+    border-radius: 10px;
+    background-color: rgb(15, 43, 64);
+    margin:0px 5px;
+
+
+}
+
+
+.contenedor-1> div:last-child{
+
+    width: 6rem;
+
+
+}
+
+
+.maintaller .contenedor-1:nth-child(2) {
+
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+
+.contenedor-2{
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columnas */
+    grid-template-rows: 1fr 1fr; 
+    gap:10px;
+    margin-bottom: 4rem;
+
+   
+}
+
+
+.contenedor-2>*{
+
+    height: 10rem;
+   
+    background-color: rgb(15, 43, 64);
+
+}
+
+
+.row1{
+
+    grid-column: span 2;
+    background-color: blueviolet;
+}
+
+.contenedor-4{
+    display: flex;
+   
+   
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.contenedor-4>*{
+    
+   
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-4>*>*{
+    width: 3rem;
+  
+    height: 1rem;
+    
+ 
+}
+
+.contenedor-4 >div:first-child>*{
+    width:5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin: 1rem;
+}
+
+.contenedor-4 >div:last-child>*{
+    width:10rem;
+    height: 5rem;
+    text-align: center;
+    color: blueviolet;
+
+}
+
+.footertaller{
+    display: flex;
+   
+    background-color: rgb(15, 43, 64);
+   
+
+}
+.footertaller>*{
+    margin: 2rem;
+    margin-top: 1rem;
+    color: blueviolet;
+}
+
+.footertaller>div:first-child>*{
+    width: 8rem;
+    height: 2rem;
+    
+    margin: 1rem;
+    background-color: blueviolet;
+    border-radius: 10px;
+    
+}
+
+.footertaller>div:first-child>:last-child{
+    width: 10rem;
+    height: 5px;
+    margin-top: 2rem;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
